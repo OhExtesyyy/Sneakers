@@ -1,0 +1,108 @@
+.modal {
+    position: absolute;
+    width: 420px;
+    right: 0;
+    height: 100%;
+    background-color: #FFFFFF;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.modal h2 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.modal h2 img {
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.cartItem{
+    display: flex;
+    align-items: center;
+    border: 1px solid #F3F3F3;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.cartItem p {
+    margin-bottom: 5px;
+}
+.cartItem img{
+    margin-right: 20px;
+}
+.infoTovar{
+    margin-right: 20px;
+}
+.cartItem p , b {
+    font-size: 14px;
+}
+
+.remove{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.15s ease-in-out;
+}
+.remove:hover{
+    opacity: 1;
+}
+
+.items{
+    overflow: auto;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+
+ul > li{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.cartTotalBlock ul{
+    margin-bottom: 40px !important;
+}
+
+.cartTotalBlock div{ 
+    flex: 1;
+    height: 1;
+    border-bottom: 1px dashed #dfdfdf;
+    position: relative;
+    top: -4px;
+    margin: 0 7px;
+}
+.greenButton{
+    width: 100%;
+    height: 55px;
+    background-color: #9DD558;
+    border-radius: 18px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartTotalBlock .greenButton {
+    position: relative;
+}
+.cartTotalBlock .greenButton img {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+

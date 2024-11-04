@@ -1,0 +1,43 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+    margin-bottom: 45px;
+}
+
+.leftHeader{
+    display: flex;
+    align-items: center;
+}
+.leftHeader img {
+    margin-right: 16px;
+}
+.leftHeader > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftHeader p {
+    color: #9D9D9D;
+}
+
+.rightHeader{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.rightHeader li {
+    display: flex;
+    align-items: center ;
+    gap: 8px;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+
