@@ -32,27 +32,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
-.cartItem{
-    display: flex;
-    align-items: center;
-    border: 1px solid #F3F3F3;
-    border-radius: 20px;
-    overflow: hidden;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.cartItem p {
-    margin-bottom: 5px;
-}
-.cartItem img{
-    margin-right: 20px;
-}
-.infoTovar{
-    margin-right: 20px;
-}
-.cartItem p , b {
-    font-size: 14px;
-}
+
+
+
 
 .remove{
     opacity: 0.5;
@@ -63,11 +45,7 @@
     opacity: 1;
 }
 
-.items{
-    overflow: auto;
-    margin-bottom: 40px;
-    flex: 1;
-}
+
 
 
 ul > li{

@@ -1,5 +1,5 @@
 import css from "./InfoSneakers.module.css"
-import search from "../../../assets/img/search.svg"
+import search from "../../assets/img/search.svg"
 
 export const InfoSneakers = () => {
     return (

@@ -1,16 +1,15 @@
 import css from "./Header.module.css"
-import logo from "../../assets/img/logo.svg"
-import basket from "../../assets/img/corz.svg"
-import favorites from "../../assets/img/serds.png"
-import profile from "../../assets/img/prof.svg"
-import { ModalBasket } from "../ModalBasket/ModalBasket"
+import logo from "../assets/img/logo.svg"
+import basket from "../assets/img/corz.svg"
+import favorites from "../assets/img/serds.png"
+import profile from "../assets/img/prof.svg"
+
 
 
 const Header = () => {
     return (
         
         <>  
-            <ModalBasket/>
             <header className={css.header}>
                 <div className={css.leftHeader}>
                     <img width={40} height={40} src={logo} alt="" />
